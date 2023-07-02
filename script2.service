@@ -3,7 +3,7 @@ Description=Bot Privé Discord premium
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /home/pro/bot/discord/private-bot/index.js
+ExecStart=/usr/bin/node /home/pro/bot/discord/private-bot/index.js
 Restart=always
 User=pro
 Group=pro
